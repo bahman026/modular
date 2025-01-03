@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Order\Tests\Order;
+namespace Modules\Order\Tests;
 
 use Tests\TestCase;
 

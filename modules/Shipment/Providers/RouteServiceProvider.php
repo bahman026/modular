@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Order\Providers;
+namespace Modules\Shipment\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as BaseRouteServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -11,7 +11,6 @@ class RouteServiceProvider extends BaseRouteServiceProvider
     {
         $this->routes(function () {
             Route::middleware('web')
-                ->as('order::')
                 ->group(__DIR__.'/../routes.php');
         });
     }
